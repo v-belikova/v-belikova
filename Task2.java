@@ -1,4 +1,4 @@
-package v
+package test;
 
 import java.util.Scanner;
 class Task2 {
