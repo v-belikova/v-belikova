@@ -8,5 +8,6 @@ class Task2 {
         int number = scan.nextInt();
         int number2 = scan.nextInt();
         System.out.println(Math.max(number, number2));
+        33
     }
 }
