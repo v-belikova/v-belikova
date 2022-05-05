@@ -10,6 +10,7 @@ class Task2 {
         int number = scan.nextInt();
         System.out.println("Введите любое число: ");
         int number2 = scan.nextInt();
+        System.out.print("Max число:");
         System.out.println(Math.max(number, number2));
     }
 }
