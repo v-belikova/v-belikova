@@ -5,9 +5,14 @@ package test;
 import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
-
-        Scanner user_input = new Scanner(System.in);
+        String password;
+        Scanner scan = new Scanner(System.in);
         System.out.println("Введите пароль: ");
-        String first_name = user_input.next();
+        password = scan.next();
+        if (password.equals("123456789")) {
+            System.out.println("Пароль введен верно!");
+        } else {
+            System.out.println("Пароль введен не верно! Попробуй еще раз!");
+        }
     }
 }
