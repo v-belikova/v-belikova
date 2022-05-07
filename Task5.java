@@ -13,7 +13,6 @@ public class Task5 {
             System.out.println("Пароль введен верно!");
         } else {
             System.out.println("Пароль введен не верно! Попробуй еще раз!");
-            System.out.println("Пароль введен не верно! Попробуй еще раз!");
         }
     }
 }
