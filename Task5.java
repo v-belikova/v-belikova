@@ -5,26 +5,6 @@ package test;
 import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
-<<<<<<< HEAD
-        String password;
-        Scanner scan = new Scanner(System.in);
-
-        System.out.println("Введите пароль: ");
-        password = scan.next();
-
-        if(password.equals("123456789")) {
-            System.out.println("Пароль введен верно");
-        }else{
-            System.out.println("Пароль введен не верно, попробуй еще раз");
-        }
-
-        scan.close();
-        }
-
-
-
-    }
-=======
         String pass = "123qaz";
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите пароль: ");
@@ -37,5 +17,5 @@ public class Task5 {
 }
 
 
->>>>>>> b8513b4348e72fc540b5f7173d9b7f219ef5943b
+
 
