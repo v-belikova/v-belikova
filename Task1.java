@@ -7,7 +7,7 @@ public class Task1 {
         short myNum_22 = 32767;
         int myNum_3 = -2147483648;
         int myNum_33 = 2147483647;
-        long myNum_4 = -922337203;
+        long myNum_4 = -922337203777l;
         long myNum_44 = 922337203;
 
         float myFloatNum = 5.99f;
