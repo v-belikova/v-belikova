@@ -6,13 +6,17 @@ import java.util.Scanner;
 import java.util.*;
 public class Task4 {
     public static void main(String[] args) {
-            System.out.println("Добавьте продукты: ");
-            Scanner scan = new Scanner(System.in);
-            String product = scan.nextLine();
-            System.out.println("В корзине: " + product);
-
+        Scanner scan = new Scanner(System.in);
+        String[] cart = new String[5];
+        for (int i = 0; i < cart.length; i++) {
+            System.out.println("Добавьте продукты: " + (i + 1));
+            cart[i] = scan.nextLine();
         }
+        System.out.println("В корзине: ");
+        System.out.println(Arrays.toString(cart));
     }
+}
+
 
 
 
